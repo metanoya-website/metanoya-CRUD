@@ -1,0 +1,102 @@
+/*---------------------------------------------------------------------------
+  Theme: Metanoya
+  
+  Your CSS goes here
+----------------------------------------------------------------------------*/
+
+.icon-nav{
+  max-width: 22px!important;
+  margin-bottom: 6px;
+}
+
+.text-bg-img{
+  background-image: url(../images/final-text-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.no-overflow{
+  overflow: visible!important;
+}
+
+.lb-1{
+  background-color: #d1dac5!important;
+}
+
+.lb-2{
+  background-color: #ecd0b2!important;
+}
+
+/* .head-bg{
+  background-image: url(../images/menu-bg.jpg);
+} */
+
+/* .head-bg{
+background-color: #EECB9D;
+} */
+
+.head-bg-2{
+  background-color: #D3F3FE;
+}
+
+.lb-3{
+  background-color: #c9b9ee;
+}
+
+.lb-4{
+  background-color: #c5acff;
+}
+
+.page-theme1{
+  background-color: #F4FFAD!important;
+}
+
+/* .page-theme2{
+  background-color: #ecd0b2;
+} */
+
+/* .page-theme3{
+  background-color: #FED9CC;
+} */
+
+
+/* .page-theme4{
+  background-color: #D3F3FF;
+} */
+
+/* .page-theme5{
+  background-color: #DED1FC;
+} */
+
+.page-theme6{
+  background-color: #D6EBC5;
+}
+
+.bg-img1{
+  background-image: url(../images/final-text-bg4.jpg);
+background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+.bg-img2{
+  background-image: url(../images/img-text-bg.png);
+}
+
+.bg-img3{
+  background-image: url(../images/board.png);
+}
+
+.bg-img4{
+  background-image: url(../images/menu-bg_copy_1110x1200.jpg);
+}
+
+.bg-img6{
+  background-image: url(../images/paper-texturejpg.jpeg);
+}
+
+.bg-img7{
+  background-image: url(../images/tex.jpg);
+}
