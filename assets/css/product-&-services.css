@@ -11878,3 +11878,9 @@ background-color: #D6EBC5;
 /* .text-bg-img{
     background-image: url(../images/text-bg-5.jpg)!important;
 } */
+
+.texture-img{
+    background-image: url(../images/about-bg.jpg);
+    background-size: contain;
+
+}
