@@ -11879,8 +11879,19 @@ background-color: #D6EBC5;
     background-image: url(../images/text-bg-5.jpg)!important;
 } */
 
-.texture-img{
+/* .texture-img{
     background-image: url(../images/about-bg.jpg);
-    background-size: contain;
+   max-height: 100%;
+   max-width: 100%;
+   background-size: contain;
+
+} */
+
+.texture-img{
+    background-color: white;
+    /* opacity: 0.8; */
+    background-image:  repeating-linear-gradient(45deg, #ade1b9 25%, transparent 25%, transparent 75%, #ade1b9 75%, #ade1b9), repeating-linear-gradient(45deg, #ade1b9 25%, white 25%, white 75%, #ade1b9 75%, #ade1b9);
+    background-position: 0 0, 50px 10px;
+    background-size: 40px 40px;
 
 }
