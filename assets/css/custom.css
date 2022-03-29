@@ -3,6 +3,11 @@
   
   Your CSS goes here
 ----------------------------------------------------------------------------*/
+@font-face {
+  font-family: riffic;
+  src: url(../fonts/riffic-bold.ttf) format("truetype");
+}
+
 
 .icon-nav{
   max-width: 22px!important;
@@ -103,4 +108,16 @@ background-repeat: no-repeat;
 
 .lb-6{
   background-color: #D6EBC5;
+}
+
+.text-c1{
+  color: #ff5944;
+}
+
+.text-c2{
+  color: #ffc624;
+}
+
+.text-c3{
+  color: #088082;
 }
