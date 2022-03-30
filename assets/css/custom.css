@@ -121,3 +121,65 @@ background-repeat: no-repeat;
 .text-c3{
   color: #088082;
 }
+
+.home-text{
+  top: 80%;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-text{
+    top: 65%;
+    z-index: 2;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .responsive-img{
+    left: -15%!important;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-img{
+    max-width: 100%;
+    left: 0px!important;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-img1{
+    height: 100%!important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-img2{
+    height: 100%!important;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  .responsive-img3{
+    background-image: url(../images/try1.jpg)!important;
+    max-width: 100%;
+    left: 0%!important;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .full-img{
+    background-image: url(../images/banner-neurodiversity.svg)!important;
+    /* max-width: 100%; */
+  }
+}
+
