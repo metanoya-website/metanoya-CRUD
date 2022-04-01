@@ -137,8 +137,34 @@ background-repeat: no-repeat;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .banner-text{
+    bottom: -100px;
+    justify-content: center;
+    display: flex;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .banner-text2{
+    justify-content: center;
+    display: flex;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .banner-text3{
+    font-size: 18px!important;
+    justify-content: center;
+    display: grid
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-icon{
+   width: 15%!important;
+  }
+}
 
 
 @media only screen and (max-width: 992px) {
