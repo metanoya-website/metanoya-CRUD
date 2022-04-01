@@ -166,6 +166,25 @@ background-repeat: no-repeat;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .img-sm{
+  position: inherit!important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page-tittle.page-tittle-lg{
+ padding: 0px 0px;
+  }
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 992px) {
   .responsive-img{
