@@ -169,6 +169,7 @@ background-repeat: no-repeat;
 @media only screen and (max-width: 600px) {
   .img-sm{
   position: inherit!important;
+  background-color: #fff2db;
   }
 }
 
@@ -179,10 +180,24 @@ background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 600px) {
-  .img-sm{
+  .img-sm, .counselling-sm, .neurodiversity-sm, .certfication-sm {
     display: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .neurodiversity-sm{
+    left: 0%!important;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .neurodiversity-lg{
+  display: none;
+  }
+}
+
 
 
 
