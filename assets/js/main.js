@@ -483,3 +483,11 @@ var Metanoya = function() {
 $(document).ready(function() {
     Metanoya.init();
 });
+
+$(window).on('resize', function(){
+    var win = $(this);
+    if (win.width() < 600) { 
+        $(".contact-bg img").attr('src', 'assets/images/contact-sm.svg');
+    } else {
+      $(".contact-bg img").attr('src', 'assets/images/banner-contact.svg');
+  }});
