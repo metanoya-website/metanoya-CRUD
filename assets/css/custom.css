@@ -145,6 +145,14 @@ background-repeat: no-repeat;
   }
 }
 
+/* @media only screen and (max-width: 600px) {
+  .banner-text-usefull-links{
+    bottom: 75px;
+    justify-content: center;
+    display: flex;
+  }
+} */
+
 @media only screen and (max-width: 600px) {
   .banner-text2{
     justify-content: center;
@@ -180,10 +188,34 @@ background-repeat: no-repeat;
 } */
 
 @media only screen and (min-width: 600px) {
-  .img-sm, .counselling-sm, .neurodiversity-sm, .certfication-sm {
+  .img-sm, .neurodiversity-sm{
     display: none;
   }
 }
+
+/* @media only screen and (max-width: 600px) {
+  .usefull-links-lg{
+    display: none;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .usefull-banner.page-tittle-lg {
+    padding: 0px 0px!important;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .usefull-links-sm {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .usefull-links-sm {
+    position: inherit!important ;
+  }
+} */
 
 @media only screen and (max-width: 991px) {
   .home-fixed {
@@ -204,16 +236,12 @@ background-repeat: no-repeat;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .neurodiversity-lg{
-  display: none;
+
+@media only screen and (max-width: 1200px) {
+  .header ul.navbar-nav > li > a{
+  font-size: 13px;
   }
 }
-
-
-
-
-
 
 @media only screen and (max-width: 992px) {
   .responsive-img{
@@ -242,18 +270,340 @@ background-repeat: no-repeat;
   }
 }
 
-/* @media only screen and (max-width: 600px) {
-  .responsive-img3{
-    background-image: url(../images/try1.jpg)!important;
+@media only screen and (max-width: 992px) {
+  .about-sm{
+    position: initial!important;
     max-width: 100%;
-    left: 0%!important;
   }
-} */
-
-@media only screen and (max-width: 600px) {
-  .full-img{
-    background-image: url(../images/banner-neurodiversity.svg)!important;
-    /* max-width: 100%; */
+  .banner-about.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-about,.banner-text-about2{
+   display: flex;
+   justify-content: center;
   }
 }
 
+
+@media only screen and (max-width: 992px) {
+  .inspiration-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-inspiration.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-inspiration{
+   display: flex;
+   justify-content: center;
+  }
+  .banner-text-inspiration2{
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .vision-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-vision.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-vision{
+   display: flex;
+   justify-content: center;
+  }
+  .banner-text-inspiration2{
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .board-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-board.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-board{
+   display: flex;
+   justify-content: center;
+  }
+  .banner-text-board2{
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .team-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-team.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-team{
+   display: flex;
+   justify-content: center;
+  }
+  .banner-text-team2{
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .awareness-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-awareness.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-awareness, .banner-text-awareness2{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .screening-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .screening-sm{
+  display: none;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .screening-lg, .screening-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-screening.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-screening, .banner-text-screening2{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intervention-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .intervention-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intervention-lg, .intervention-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-intervention.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-intervention{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .offsite-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .offsite-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .offsite-lg, .offsite-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-offsite.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-offsite, .banner-text-offsite2{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .certification-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .certification-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .certification-lg, .certification-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-certification.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-certification{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .counselling-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .counselling-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .counselling-lg, .counselling-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-counselling.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-counselling{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .awareness-lg{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-awareness.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-awareness{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .how-lg{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-how.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-how{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .neurodiversity-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .neurodiversity-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .neurodiversity-lg, .neurodiversity-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-neurodiversity.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-neurodiversity{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .usefull-links-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .usefull-links-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .usefull-links-lg, .usefull-links-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-usefull-links.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  .banner-text-usefull-links, .banner-text-usefull-links{
+   display: flex;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-lg{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-sm{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contact-lg, .contact-sm{
+    position: initial!important;
+    max-width: 100%;
+  }
+  .banner-contact.page-tittle-xl{
+    padding: 0px 0px;
+  }
+  /* .banner-text-usefull-links, .banner-text-usefull-links{
+   display: flex;
+   justify-content: center;
+  } */
+}
