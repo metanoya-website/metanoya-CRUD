@@ -283,6 +283,7 @@ background-repeat: no-repeat;
   .about-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-about.page-tittle-xl{
     padding: 0px 0px;
@@ -298,6 +299,7 @@ background-repeat: no-repeat;
   .inspiration-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-inspiration.page-tittle-xl{
     padding: 0px 0px;
@@ -316,6 +318,7 @@ background-repeat: no-repeat;
   .vision-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-vision.page-tittle-xl{
     padding: 0px 0px;
@@ -334,6 +337,7 @@ background-repeat: no-repeat;
   .board-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-board.page-tittle-xl{
     padding: 0px 0px;
@@ -352,6 +356,7 @@ background-repeat: no-repeat;
   .team-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-team.page-tittle-xl{
     padding: 0px 0px;
@@ -370,6 +375,7 @@ background-repeat: no-repeat;
   .awareness-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-awareness.page-tittle-xl{
     padding: 0px 0px;
@@ -397,6 +403,7 @@ background-repeat: no-repeat;
   .screening-lg, .screening-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-screening.page-tittle-xl{
     padding: 0px 0px;
@@ -423,6 +430,7 @@ background-repeat: no-repeat;
   .intervention-lg, .intervention-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-intervention.page-tittle-xl{
     padding: 0px 0px;
@@ -449,6 +457,7 @@ background-repeat: no-repeat;
   .offsite-lg, .offsite-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-offsite.page-tittle-xl{
     padding: 0px 0px;
@@ -475,6 +484,7 @@ background-repeat: no-repeat;
   .certification-lg, .certification-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-certification.page-tittle-xl{
     padding: 0px 0px;
@@ -501,6 +511,7 @@ background-repeat: no-repeat;
   .counselling-lg, .counselling-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-counselling.page-tittle-xl{
     padding: 0px 0px;
@@ -515,6 +526,7 @@ background-repeat: no-repeat;
   .awareness-lg{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-awareness.page-tittle-xl{
     padding: 0px 0px;
@@ -556,6 +568,7 @@ background-repeat: no-repeat;
   .neurodiversity-lg, .neurodiversity-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-neurodiversity.page-tittle-xl{
     padding: 0px 0px;
@@ -582,6 +595,7 @@ background-repeat: no-repeat;
   .usefull-links-lg, .usefull-links-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-usefull-links.page-tittle-xl{
     padding: 0px 0px;
@@ -608,6 +622,7 @@ background-repeat: no-repeat;
   .contact-lg, .contact-sm{
     position: initial!important;
     max-width: 100%;
+    height: auto!important;
   }
   .banner-contact.page-tittle-xl{
     padding: 0px 0px;
