@@ -529,6 +529,7 @@ background-repeat: no-repeat;
   .how-lg{
     position: initial!important;
     max-width: 100%!important;
+    width: fit-content!important;
   }
   .banner-how.page-tittle-xl{
     padding: 0px 0px;
