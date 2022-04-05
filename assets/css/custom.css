@@ -241,6 +241,15 @@ background-repeat: no-repeat;
   .header ul.navbar-nav > li > a{
   font-size: 13px;
   }
+  .header.header-sticky.sticky ul.navbar-nav > li > a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header ul.navbar-nav > li > a{
+  font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -519,7 +528,7 @@ background-repeat: no-repeat;
 @media only screen and (max-width: 992px) {
   .how-lg{
     position: initial!important;
-    max-width: 100%;
+    max-width: 100%!important;
   }
   .banner-how.page-tittle-xl{
     padding: 0px 0px;
