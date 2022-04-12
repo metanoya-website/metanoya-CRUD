@@ -244,6 +244,9 @@ background-repeat: no-repeat;
   .header.header-sticky.sticky ul.navbar-nav > li > a {
     font-size: 13px;
   }
+  .logo-head{
+    width: 150px!important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
