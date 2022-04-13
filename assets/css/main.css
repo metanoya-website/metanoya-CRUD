@@ -11807,7 +11807,10 @@ h5.heading-1.second-line:after {
 } */
 
 .head-bg{
-background-color: #EECB9D;
+/* background-color: #EECB9D; */
+background-image: url(../images/final-text-bg.jpg);
+
+  background-size: 100% 100%;
 }
 
 .head-bg-2{
