@@ -11801,7 +11801,9 @@ h5.heading-1.second-line:after {
 } */
 
 .head-bg{
-background-color: #D6EBC5;
+/* background-color: #D6EBC5; */
+background-image: url(/assets/images/final-text-bg.jpg);
+background-size: contain;
 }
 
 .head-bg-2{
@@ -11888,10 +11890,10 @@ background-color: #D6EBC5;
 } */
 
 .texture-img{
-    background-color: white;
+    /* background-color: white;
     /* opacity: 0.8; */
-    background-image:  repeating-linear-gradient(45deg, #ade1b9 25%, transparent 25%, transparent 75%, #ade1b9 75%, #ade1b9), repeating-linear-gradient(45deg, #ade1b9 25%, white 25%, white 75%, #ade1b9 75%, #ade1b9);
+    /* background-image:  repeating-linear-gradient(45deg, #ade1b9 25%, transparent 25%, transparent 75%, #ade1b9 75%, #ade1b9), repeating-linear-gradient(45deg, #ade1b9 25%, white 25%, white 75%, #ade1b9 75%, #ade1b9);
     background-position: 0 0, 50px 10px;
-    background-size: 40px 40px;
-
+    background-size: 40px 40px;  */
+    background-color: #ade1b9;
 }
