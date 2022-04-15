@@ -11801,9 +11801,10 @@ h5.heading-1.second-line:after {
     background-image: url(../images/menu-bg.jpg);
 } */
 
-/* .head-bg{
-background-color: #D6EBC5;
-} */
+.head-bg{
+    background-image: url(../images/white-paper-texture.jpg);
+    background-size: contain;
+}
 
 .head-bg-2{
     background-color: #D3F3FE;
