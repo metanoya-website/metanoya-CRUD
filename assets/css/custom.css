@@ -380,11 +380,11 @@ background-repeat: no-repeat;
   }
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .awareness-sm{
   display: none;
   }
-}
+} */
 
 @media only screen and (max-width: 992px) {
   .awareness-sm, .awareness-lg{
