@@ -11802,12 +11802,23 @@ h5.heading-1.second-line:after {
 } */
 
 .head-bg{
-    /* background-image: url(../images/white-paper-texture.jpg);
-    background-size: contain; */
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/white-wall-3.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+    /* background-color: #EECB9D; */
+    /* background-image: url(../images/white-paper.jpg); */
+    /* background-size: contain; */
+    
+    background-color: #fff7f7;
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    /* background: -moz-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
+    background: -webkit-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
+    background: linear-gradient(90deg, #fffafa 1px, #f0f0f0 1px);
+    -moz-background-size: 5px 5px;
+    -o-background-size: 5px 5px;
+    -webkit-background-size: 5px 5px;
+    background-size: 5px 5px; */
+    
+    }
 
 .head-bg-2{
     background-color: #D3F3FE;

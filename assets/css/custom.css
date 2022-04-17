@@ -41,6 +41,25 @@
 background-color: #EECB9D;
 } */
 
+.head-bg{
+  /* background-color: #EECB9D; */
+  /* background-image: url(../images/white-paper.jpg); */
+  /* background-size: contain; */
+  
+  background-color: #fff7f7;
+  background-image: url("https://www.transparenttextures.com/patterns/white-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+  /* background: -moz-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
+  background: -webkit-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
+  background: linear-gradient(90deg, #fffafa 1px, #f0f0f0 1px);
+  -moz-background-size: 5px 5px;
+  -o-background-size: 5px 5px;
+  -webkit-background-size: 5px 5px;
+  background-size: 5px 5px; */
+  
+  }
+
 .head-bg-2{
   background-color: #D3F3FE;
 }
@@ -237,15 +256,21 @@ background-repeat: no-repeat;
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .header ul.navbar-nav > li > a{
-  font-size: 13px;
+  font-size: 12px;
   }
   .header.header-sticky.sticky ul.navbar-nav > li > a {
-    font-size: 13px;
+    font-size: 12px;
   }
   .logo-head{
-    width: 150px!important;
+    width: 185px!important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo-head{
+    width: 200px!important;
   }
 }
 
