@@ -11813,7 +11813,6 @@ h5.heading-1.second-line:after {
 
 background-color: #fff7f7;
 background-image: url("https://www.transparenttextures.com/patterns/white-wall.png");
-filter: grayscale(10%);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 /* background: -moz-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
