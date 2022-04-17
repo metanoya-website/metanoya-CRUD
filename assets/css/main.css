@@ -11808,16 +11808,16 @@ h5.heading-1.second-line:after {
 
 .head-bg{
 /* background-color: #EECB9D; */
-/* background-image: url(../images/white-paper-texture.jpg);
-background-size: contain; */
+background-image: url(../images/white-paper.jpg);
+/* background-size: contain; */
 
-background: -moz-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
+/* background: -moz-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
 background: -webkit-linear-gradient(0deg, #fffafa 1px, #f0f0f0 1px);
 background: linear-gradient(90deg, #fffafa 1px, #f0f0f0 1px);
 -moz-background-size: 5px 5px;
 -o-background-size: 5px 5px;
 -webkit-background-size: 5px 5px;
-background-size: 5px 5px;
+background-size: 5px 5px; */
 
 }
 
